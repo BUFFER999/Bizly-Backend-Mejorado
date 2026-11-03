@@ -63,7 +63,18 @@
   display: flex;
   flex-direction: column;
 }
-
+.avatar {
+  background-color: #64B5F6; /* Azul claro */
+  color: white;
+  width: 45px; /* Puedes subirlo a 60px si prefieres que se vea más grande */
+  height: 45px;
+  flex-shrink: 0; /* CLAVE: Evita que Flexbox aplaste el círculo volviéndolo ovalado */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
 .nav-item {
   padding: 12px 25px;
   color: #a0aec0;
